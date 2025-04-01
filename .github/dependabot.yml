@@ -7,6 +7,13 @@ updates:
     registries:
         - jfrog-artifactroy
 
+  - package-ecosystem: maven
+    directory: /child/
+    schedule:
+      interval: weekly
+    registries:
+        - jfrog-artifactroy
+
 registries:
   jfrog-artifactroy:
     type: "maven-repository"
