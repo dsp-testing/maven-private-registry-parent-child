@@ -4,3 +4,12 @@ updates:
     directory: /
     schedule:
       interval: weekly
+  registries:
+      - jfrog-artifactroy
+
+registries:
+  jfrog-artifactroy:
+    type: "maven-repo"
+    url: "https://jfrogghdemo.jfrog.io/artifactory/dependabot/"
+    username: "thavaahariharangit@github.com"  # Store username in GitHub Secrets
+    password: "${{ secrets.JFROG_ARTIFACTORY_TOKEN }}"
