@@ -3,13 +3,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <groupId>com.dependabot</groupId>
-        <artifactId>basic-pom</artifactId>
-        <version>0.0.1-RELEASE</version>
-    </parent>
-
-    <artifactId>child-pom</artifactId>
+    <groupId>com.dependabot</groupId>
+    <artifactId>child-module</artifactId>
     <version>0.0.1-RELEASE</version>
     <name>Dependabot Child POM</name>
 
